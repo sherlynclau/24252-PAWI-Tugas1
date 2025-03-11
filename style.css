@@ -1,12 +1,19 @@
 body{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Lucida Sans Regular';
+    width: 100%;
+    max-width: 100%;
 }
 .container {
-    padding-top: 30px;
+    /* padding-top: 30px; */
     width: 100%;
     max-width: 100%;
 }
 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
 
 a {
     box-sizing: border-box;
@@ -24,31 +31,19 @@ a:hover {
     color: white;
   }
 
-.tentangkami, .layanankami {
-    margin-top: 100px;
+.tentangkami, .layanankami, .kenapakami{
+    flex: 1;
     background-color: #f1f1f1;
-    padding: 20px;
-    border-radius: 10px;
-    max-height: 420px;
+    border-radius: 20px;
     margin: 10px;
-    width: 31.8%;
-    max-width: 100%;
-    margin: 50px 10px 10px 10px;
+    padding: 20px;
     text-align: justify;
-    
 }
 
 .kenapakami {
-    text-align: justify;
-    margin-top: 100px;
     background-color: #002f87;
     color: white;
-    padding: 20px;
-    border-radius: 20px; 
-    max-height: 420px;
-    width: 31.5%;
-    max-width: 100%;
-    margin: 50px 10px 10px 10px;
+    text-align: justify;
 }
 
 .kenapakami ul {
@@ -57,35 +52,51 @@ a:hover {
 }
 
 .kenapakami ul li {
-    margin-bottom: 10px;
-}
+    margin: 20px;
 
+}
 
 .akhir1{
     margin-top: 100px;
-    background-color: #002f87; 
+    background-color: hsl(219, 100%, 26%); 
     color: white; 
-    padding:40px 20px 40px 50px; 
+    padding: 40px 40px;
+    text-align: left;
+}
+
+.pembayaran,.hubungikami, .ikutikami, .infosingkat{
+    background-color: #ccedff; 
+    color: black; 
+    padding: 40px 40px;
     width: 100%;
-}
-
-.infosingkat{
-    background-color: #ccedff; 
-    color: black; 
-    padding:30px 20px 40px 50px; 
-    /* atas       bawah  kiri */
-    text-align: left; 
-    margin-left: 12px;
-    max-width: 100%; 
-    
-}
-.pembayaran,.hubungikami, .ikutikami{
-    background-color: #ccedff; 
-    color: black; 
-    padding:40px 20px 40px 50px; 
-    /* atas       bawah  kiri */
-    text-align: left; 
+    text-align: left;
+    min-width: 250px;
     max-width: 100%;
-    width: 308px;
+    flex: 1;
+    box-sizing: border-box;
 }
 
+.ikutikami img {
+    width: 30px;
+    height: 30px;
+}
+
+.form {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+}
+
+.produk {
+    border: 2px solid #002f87;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: white;
+    margin: 10px;
+}
+.produk img {
+    width: 100%;
+    border-radius: 10px;
+}
