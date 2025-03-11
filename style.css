@@ -61,18 +61,32 @@ a:hover {
     
 }
 
+.akhir2 {
+    max-width: 100%;
+    width: 100%;
+}
+
 .pembayaran,.hubungikami, .ikutikami, .infosingkat{
     background-color: #ccedff; 
     color: black; 
-    padding: 40px 40px;
+    padding: 0px 40px;
     width: 100%;
     text-align: left;
     min-width: 250px;
     max-width: 100%;
     flex: 1;
     box-sizing: border-box;
+    padding-top: 10px;
+    text-align: justify;
 }
 
+.infosingkat{
+    margin-left: 12px;
+}
+
+.ikutikami{
+    margin-right: 12px;
+}
 .ikutikami img {
     width: 30px;
     height: 30px;
@@ -87,7 +101,7 @@ a:hover {
 .produk {
     border: 2px solid #002f87;
     border-radius: 10px;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
     background: white;
     margin: 10px;
@@ -126,8 +140,4 @@ input[type="text"], input[type="email"], textarea, select {
     padding: 5px; /* sisi dalam border */
     border: 1px solid grey;  /* ketebalan border */
     /* margin: 20px; (sisi luar border)*/
-}
-
-.kartu img{
-
 }

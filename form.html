@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,53 +18,34 @@
         </nav>
     </div>
 
-    <h2 style="background-color: #f1f1f1; padding: 90px; text-align: center; margin-left: 12px;">
-        Konveksi Baju Berkah, perusahaan konveksi garmen modern, <br>profesional dan terpercaya</h2>
-
-        
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-lg-6 col-sm-12">    
-                <img src="images/perusahaan.jpg" alt="" class="w-100">   
-            </div>
-            <div class="col-lg-6 col-sm-12">
-                <h3>Tentang Kami </h3>
-                <p style="text-align: justify;"> Konveksi Baju Berkah adalah penyedia layanan konveksi seragam terpercaya yang menghadirkan produk berkualitas tinggi untuk berbagai kebutuhan. Kami berkomitmen untuk memberikan solusi terbaik dalam pembuatan seragam dengan desain modern dan material terbaik.
-                </p>
-                <h4>📍 Alamat Perusahaan</h4>
-                <p> 
-                    Jl. Raya Konveksi No. 123, Blok A, Kelurahan Seragam, Kecamatan Jahit, Kota Fashion, Provinsi Tekstil, Indonesia, 12345 <br><br>
-                <h4> Kontak Kami </h4>
-                    📞 Admin 1: 0821-1113-9991 <br>
-                    📞 Admin 2: 0812-2345-6789 <br>
-                    💬 Tertarik bekerja sama? Hubungi kami sekarang juga! 🚀
-                </p>
-            </div> 
+    <form class="form row g-3">
+        <div class="col-md-6">
+            <label for="inputName4" class="form-label">Nama</label>
+            <input type="text" class="form-control" placeholder="Nama Depan" aria-label="">
         </div>
-    </div>
-    <div class="container"> 
-        <div class="row">
-            <div class="col-lg-6 col-sm-12 mt-5">
-                <h4>Visi </h4>
-                    <p>Menjadi perusahaan konveksi terpercaya yang menghadirkan pakaian berkualitas tinggi dengan desain inovatif dan ramah lingkungan, serta memberikan kepuasan terbaik bagi pelanggan.
-                    </p>
-                <h4>Misi</h4>
-                <ol>
-                    <li>Menggunakan bahan terbaik dan proses produksi yang teliti untuk menghasilkan pakaian yang nyaman, tahan lama, dan sesuai dengan kebutuhan pelanggan.</li>
-                    <li>Memberikan layanan pelanggan yang responsif, profesional, dan ramah untuk memastikan kepuasan dan kepercayaan pelanggan.</li>
-                    <li>Menciptakan lapangan kerja dan meningkatkan keterampilan tenaga kerja lokal dalam industri konveksi.</li>
-                    <li>Selalu mengembangkan desain dan teknologi produksi agar selalu mengikuti tren terbaru dan kebutuhan pasar.</li>
-                    <li>Menyediakan produk dengan harga yang bersaing tanpa mengorbankan kualitas dan kenyamanan.</li>
-                </ol>
-            </div> 
-            <div class="col-lg-6 col-sm-12 mt-5">    
-                <img src="images/jahit.jpg" alt="" class="w-100">   
-            </div>
+        <div class="col-md-6">
+            <label for="inputName4" class="form-label"><br></label>
+            <input type="text" class="form-control" placeholder="Nama Belakang" aria-label="">
         </div>
-    </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Alamat</label>
+            <textarea name="pesan" id="pesan" rows="3"></textarea>
+        </div>
+        <div class="col-12">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-12">
+            <label for="inputEmail4" class="form-label">No. Telp</label>
+            <input type="text" class="form-control" id="">
+        </div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary">Kirim</button>
+        </div>
+    </form>
 
     <div class="container">
-        <div class="akhir1 d-flex justify-content-between align-items-center">
+        <div class="akhir1">
             <div>
                 <h1>Hubungi Kami Sekarang</h1><br>
                 <h3 style="font-size: x-large;">Tingkatnya profesionalitas dan kenyamanan kerja anda dengan <br>seragam berkualitas. 
@@ -106,5 +86,6 @@
         </div>
     </div>  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </body>
 </html>
