@@ -3,16 +3,11 @@ body{
     width: 100%;
     max-width: 100%;
 }
+
 .container {
     /* padding-top: 30px; */
     width: 100%;
     max-width: 100%;
-}
-
-.row{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
 }
 
 a {
@@ -35,7 +30,8 @@ a:hover {
     flex: 1;
     background-color: #f1f1f1;
     border-radius: 20px;
-    margin: 10px;
+    justify-content: center;
+    margin-left: 10px;
     padding: 20px;
     text-align: justify;
 }
@@ -62,6 +58,7 @@ a:hover {
     color: white; 
     padding: 40px 40px;
     text-align: left;
+    
 }
 
 .pembayaran,.hubungikami, .ikutikami, .infosingkat{
@@ -92,11 +89,45 @@ a:hover {
     border-radius: 10px;
     padding: 15px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background: white;
     margin: 10px;
+    box-shadow: 0 4px 8px #b6b6b6;
 }
 .produk img {
     width: 100%;
     border-radius: 10px;
+}
+
+.btn-primary {
+    background-color: #002f87;
+    border-color: #002f87;
+    color: white; 
+}
+    
+.btn-primary:hover {
+    background-color: #001a5e;
+    border-color: #001a5e;
+}
+
+.tombolhubungikami{
+    background-color: #ffffff;
+    color: #000000  ;
+}
+
+.tombolhubungikami:hover {
+    background-color: #001a5e;
+    border-color: #001a5e;
+    color: white;
+}
+
+input[type="text"], input[type="email"], textarea, select {
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px; /* sisi dalam border */
+    border: 1px solid grey;  /* ketebalan border */
+    /* margin: 20px; (sisi luar border)*/
+}
+
+.kartu img{
+
 }
